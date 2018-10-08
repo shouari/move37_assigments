@@ -2,11 +2,9 @@ import gym
 import numpy as np
 import time
 
-""" Evaluates policy by using it to run an episode and finding its
-    
+""" Evaluates policy by using it to run 
     policy: the policy to be used.
-    gamma: discount factor.
-    returns:
+    gamma:Out discount factor.
     total reward: real value of the total reward recieved by agent under policy.
     """
 def run_episode(env,policy, gamma, render= False):
